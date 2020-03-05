@@ -1,0 +1,365 @@
+.header {
+    background-color: #1a4f4f;
+    height: 125px;
+}
+
+html,
+body {
+    @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size:20px;
+    color:#773035;
+    margin: 0px;
+    
+}
+.nav-top{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.button {
+  background-color: #61151a;
+  border: none;
+  color: #fad29d;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+/* Icon*/
+
+.nav-item {
+    font-size: 22px;
+    background-color: #0e4141;
+    color:#f9d19c; 
+}
+
+.nav-link {
+    color: #f9d19c !important;
+}
+
+.nav-link:hover {
+    background-color: #6e2427;
+    color: #f9d19c !important;
+}
+
+.link {
+    color: #f9d19c;
+}
+
+.header-logo {
+    margin-left: 40%;
+    margin-right: auto;
+    margin-top: -40px;
+    position: absolute;
+}
+
+.header-logo-visit {
+    margin-left: 80%;
+    margin-right: auto;
+    margin-top: -40px;
+    position: absolute;
+}
+
+
+.text {
+    color: #e5c696;
+}
+
+.img-fluid {
+    width: 100%
+    position: absolute;
+}
+
+.para {
+    height: 30%;
+    width: 35%;
+    color: white;
+    position: absolute;
+    float: left;
+    margin-top: 14%;
+    margin-left: 180px;
+    font-size: 20px;
+    word-spacing: 2px;
+}
+
+.font {
+    font-size: 40px;
+    word-spacing: .2px;
+}
+
+.content {
+    color: black;
+    margin-left: 20%;
+    word-spacing: .2px;
+    font-size: 20px;
+    height: 700px;
+    width: 70% auto;
+
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+#main{
+    padding-bottom:700px;
+}
+
+.history {
+    float: right;
+    margin-right: 30%;
+    position: relative;
+}
+
+.pic {
+    height: 300px;
+    width: 400px;
+}
+
+.cont{
+    margin-top:50px;
+    margin-left:45%;
+    font-size: 40px;
+    color:#773035;
+}
+
+.card-header{
+    background-color: #6e2427;
+    color: #ffdfb5; 
+}
+.card-link{
+    color: #ffdfb5;
+    text-align: center; !important
+    display: inline-block;
+}
+.card-link:nth-child(2){
+    margin-top: 20%;
+}
+.card-link:hover{
+    color: #ffdfb5;
+    font-size: 22px;   
+}
+.arrow{
+margin:0;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+.sect{
+   background-color: #fff7ed;;
+    box-sizing: border-box;
+    padding-top: 5%;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+}
+
+.visit-text{
+    text-align: center;
+    margin: 0;
+    position: relative;
+}
+
+/*frame*/
+
+.frame {
+    background: #f9d19c;
+    height: 110px;
+    position: relative;
+    width: 30px;
+    margin-top: 5%;
+}
+
+.frame:after {
+    background: #f9d19c;
+    content: "";
+    height: 30px;
+    position: absolute;
+    top: 0px;
+    width: 110px;
+    
+}
+
+.frame2 {
+    background: #f9d19c;
+    height: 150px;
+    position: relative;
+    width: 30px;
+    margin-top: 80%;
+    float:right;
+    margin-right: -30%;
+    
+}
+
+.frame2:after {
+    background: #f9d19c;
+    content: "";
+    height: 30px;
+    left: -120px;
+    position: absolute;
+    bottom: 0px;
+    width: 150px;
+}
+
+.museum {
+    font-size: 40px;
+    color: #1a4f4f;
+    position: relative;
+    margin-left: 20%;
+}
+
+/* Fotter */
+
+.footer{
+    height:300px;
+    width:100%;
+    background: #0e4141;
+    bottom:0;
+    clear:both;
+    color:white;
+    font-size:12px;
+}
+
+.general{
+    word-spacing: 3px;
+    font-size: 16px;
+    text-align: center;
+   margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    display: block;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.footer-img{
+    width: 100%;
+
+    margin-top: -15%;
+    margin-left: -22%;
+}
+
+.navbar-brand {
+    display: none;
+}
+
+/* mobile version */
+
+@media only screen and (max-width: 990px) {
+    .header-logo {
+        margin: 0;
+        margin-left: 0; 
+        position: relative;
+    }
+    .navbar-brand {
+        display: block;
+    }
+    
+    .header {
+        display: none;
+    }
+    
+    .nav-item {
+        background-color: #1a4f4f;
+    }
+    
+    .navbar{
+        background-color: #1a4f4f !important;
+    }
+    
+    
+    /*frame*/
+
+.frame {
+    background: #f9d19c;
+    height: 110px;
+    position: relative;
+    width: 30px;
+    margin-top: 5%;
+    margin-left: -2%;
+}
+
+.frame:after {
+    background: #f9d19c;
+    content: "";
+    height: 30px;
+    position: absolute;
+    top: 0px;
+    width: 110px;
+}
+
+.frame2 {
+    background: #f9d19c;
+    height: 150px;
+    position: relative;
+    width: 30px;
+    margin-top: 50%;
+    float:right;
+    margin-right: -37%;
+    padding: 0;
+
+    
+}
+
+.frame2:after {
+    background: #f9d19c;
+    content: "";
+    height: 30px;
+    left: -110px;
+    position: absolute;
+    bottom: 0px;
+    width: 110px;
+}
+    
+    .about-the-museum{
+        margin-left: -16%;
+        font-size: 32px;
+    }
+    
+    .about-the-museum-text{
+        font-size: 16px;
+        margin-left: -16%;
+    }
+    
+    .pic{
+        margin-right: -15%;
+        height: 120%;
+        width: 120%
+    }
+    
+}
+
+@media only screen and (max-width: 1340px) {
+    
+    .about-the-museum{
+        margin-left: -10%;
+        font-size: 32px;
+    }
+    
+    .about-the-museum-text{
+        font-size: 16px;
+        margin-left: -16%;
+        width: 360px;
+    }
+    
+    .read-more{
+        margin-top: 200px;
+    }
+    }
